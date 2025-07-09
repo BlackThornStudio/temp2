@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[node name="MainMenu" type="Control"]
+script = ExtResource("res://scripts/main_menu.gd")
+
+[node name="VBox" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="NewGameButton" type="Button" parent="VBox"]
+text = "NEW GAME"
+
+[node name="LoadGameButton" type="Button" parent="VBox"]
+text = "LOAD GAME"
+
+[node name="QuitButton" type="Button" parent="VBox"]
+text = "QUIT"
